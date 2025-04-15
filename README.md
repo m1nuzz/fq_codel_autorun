@@ -16,16 +16,17 @@ The script performs the following tasks:
 
 ## Installation
 
-To install, execute the following single command in your terminal:
+To install, run the following commands in your terminal:
 
 ```bash
-git clone https://github.com/m1nuzz/fq_codel_autorun.git && cd fq_codel_autorun && chmod +x install_fq_codel.sh && sudo ./install_fq_codel.sh
+wget https://raw.githubusercontent.com/m1nuzz/fq_codel_autorun/main/install_fq_codel.sh -O /tmp/install_fq_codel.sh
+chmod +x /tmp/install_fq_codel.sh
+sudo /tmp/install_fq_codel.sh
 ```
 
-This command will:
-- Clone the repository.
-- Change to the repository directory.
-- Make the `install_fq_codel.sh` script executable.
+This will:
+- Download the installation script from GitHub.
+- Make it executable.
 - Run the script with root privileges.
 
 ## Verification
